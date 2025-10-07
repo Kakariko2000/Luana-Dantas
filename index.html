@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Fotografia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': 'rgba(164, 84, 60, 1)',
+              'brand-secondary': 'rgba(180, 124, 103, 1)',
+              'brand-accent': 'rgba(188, 137, 115, 1)',
+              'brand-subtle': 'rgba(192, 148, 124, 1)',
+              'brand-bg': 'rgba(226, 209, 193, 1)',
+              'brand-offwhite': '#F8F5F2'
+            },
+            fontFamily: {
+              'serif': ['Playfair Display', 'serif'],
+              'sans': ['Montserrat', 'sans-serif'],
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-offwhite">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
