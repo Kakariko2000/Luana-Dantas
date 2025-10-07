@@ -9,17 +9,17 @@ const HomePage: React.FC = () => {
           <img 
             src="https://picsum.photos/id/1018/400/600" 
             alt="Imagem 1 do portfólio" 
-            className="w-full h-[calc(100vh-20rem)] object-cover rounded-lg shadow-lg" 
+            className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
           <img 
             src="https://picsum.photos/id/1015/400/600" 
             alt="Imagem 2 do portfólio" 
-            className="w-full h-[calc(100vh-20rem)] object-cover rounded-lg shadow-lg" 
+            className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
           <img 
             src="https://picsum.photos/id/1016/400/600" 
             alt="Imagem 3 do portfólio" 
-            className="w-full h-[calc(100vh-20rem)] object-cover rounded-lg shadow-lg" 
+            className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
         </div>
 
