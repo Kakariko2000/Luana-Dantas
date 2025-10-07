@@ -34,7 +34,7 @@ const CategoryButton: React.FC<{
 }> = ({ category, activeCategory, onClick }) => (
     <button
         onClick={() => onClick(category)}
-        className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+        className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 font-comfortaa ${
             activeCategory === category
                 ? 'bg-brand-primary text-white shadow-md'
                 : 'bg-brand-bg text-brand-secondary hover:bg-brand-accent hover:text-white'
@@ -65,7 +65,7 @@ const GalleryPage: React.FC = () => {
   return (
     <>
       <div className="animate-fade-in">
-        <h2 className="text-4xl font-serif text-center mb-8 text-brand-primary">Galeria</h2>
+        <h2 className="text-4xl font-comfortaa text-center mb-8 text-brand-primary">Galeria</h2>
         <div className="flex justify-center items-center space-x-2 sm:space-x-4 mb-12">
           {Object.values(GalleryCategory).map(category => (
             <CategoryButton
