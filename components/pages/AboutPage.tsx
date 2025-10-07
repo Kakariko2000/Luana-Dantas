@@ -4,12 +4,12 @@ const AboutPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto py-12 animate-fade-in">
       <h2 className="text-4xl font-serif text-center mb-12 text-brand-primary">Sobre Mim</h2>
-      <div className="flex flex-col md:flex-row items-center md:gap-12"> {/* Alterado md:items-start para items-center */}
+      <div className="flex flex-col md:flex-row items-center md:gap-12">
         <div className="w-full md:w-1/3">
           <img 
             src="/luana-dantas-profile.jpeg" 
             alt="Retrato da fotógrafa Luana Dantas"
-            className="rounded-full aspect-square object-cover shadow-lg mx-auto"
+            className="rounded-full aspect-square object-cover shadow-lg mx-auto mb-8 md:mb-0" 
           />
         </div>
         <div className="w-full md:w-2/3 text-center md:text-left text-brand-secondary leading-relaxed">
