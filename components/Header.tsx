@@ -29,17 +29,20 @@ const NavLink: React.FC<{
 
 const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const photographerName = "Luana Dantas";
 
   return (
     <header className="sticky top-0 bg-brand-offwhite bg-opacity-90 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div 
-            className="text-2xl font-serif text-brand-primary cursor-pointer"
+            className="cursor-pointer"
             onClick={() => setCurrentPage(Page.Home)}
           >
-            {photographerName}
+            <img 
+              src="/logotipo-cmyk-06.png" 
+              alt="Luana Dantas Fotografia" 
+              className="h-10 md:h-12" 
+            />
           </div>
           <nav className="hidden md:flex items-center space-x-2">
             {Object.values(Page).map((page) => (
