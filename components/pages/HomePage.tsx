@@ -25,10 +25,10 @@ const HomePage: React.FC = () => {
 
         {/* Texto Sobreposto */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 bg-black bg-opacity-50 rounded-lg">
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight">
+          <h1 className="font-comfortaa text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight">
             Luana Dantas
           </h1>
-          <p className="font-sans text-base md:text-lg lg:text-xl mt-2 tracking-widest uppercase text-gray-200">
+          <p className="font-comfortaa text-base md:text-lg lg:text-xl mt-2 tracking-widest uppercase text-gray-200">
             Fotografia
           </p>
         </div>
