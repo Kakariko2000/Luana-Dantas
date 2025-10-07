@@ -17,7 +17,7 @@ const NavLink: React.FC<{
       setCurrentPage(page);
       if (onClick) onClick();
     }}
-    className={`px-4 py-2 text-sm uppercase tracking-wider transition-colors duration-300 ${
+    className={`px-4 py-2 text-sm uppercase tracking-wider transition-colors duration-300 font-comfortaa ${ // Adicionado font-comfortaa aqui
       currentPage === page
         ? 'text-brand-primary font-semibold'
         : 'text-brand-secondary hover:text-brand-primary'
