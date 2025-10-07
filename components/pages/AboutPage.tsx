@@ -7,7 +7,7 @@ const AboutPage: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         <div className="w-full md:w-1/3">
           <img 
-            src="https://picsum.photos/id/1005/500/500" 
+            src="/luana-dantas-profile.jpeg" 
             alt="Retrato da fotógrafa Luana Dantas"
             className="rounded-full aspect-square object-cover shadow-lg mx-auto"
           />
