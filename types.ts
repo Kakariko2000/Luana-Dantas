@@ -1,9 +1,7 @@
-
 export enum Page {
   Home = 'Início',
   Gallery = 'Galeria',
-  About = 'Sobre',
-  Contact = 'Contato'
+  About = 'Sobre'
 }
 
 export enum GalleryCategory {
