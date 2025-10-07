@@ -3,9 +3,9 @@ import React from 'react';
 const HomePage: React.FC = () => {
   return (
     <div className="relative -mt-8 -mx-4 sm:-mx-6 lg:-mx-8 h-[calc(100vh-5rem)] flex items-center justify-center text-white">
-      <div className="relative z-20 p-4 max-w-md w-full animate-fade-in">
+      <div className="relative z-20 p-4 max-w-4xl w-full animate-fade-in"> {/* Alterado max-w-md para max-w-4xl */}
         {/* Coluna de Imagens */}
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4"> {/* Alterado grid-cols-1 para grid-cols-1 md:grid-cols-3 */}
           <img 
             src="https://picsum.photos/id/1018/400/600" 
             alt="Imagem 1 do portfólio" 
