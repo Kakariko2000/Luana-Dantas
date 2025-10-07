@@ -7,18 +7,18 @@ const HomePage: React.FC = () => {
         {/* Coluna de Imagens */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <img 
-            src="https://picsum.photos/id/1018/400/600" 
-            alt="Imagem 1 do portfólio" 
+            src="/images/gallery-image-01.jpg" 
+            alt="Mãe e filho" 
             className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
           <img 
-            src="https://picsum.photos/id/1015/400/600" 
-            alt="Imagem 2 do portfólio" 
+            src="/images/gallery-image-07.jpeg" 
+            alt="Mulher sorrindo com caneca" 
             className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
           <img 
-            src="https://picsum.photos/id/1016/400/600" 
-            alt="Imagem 3 do portfólio" 
+            src="/images/gallery-image-19.jpeg" 
+            alt="Casal se beijando na ponte" 
             className="w-full h-[calc(100vh-15rem)] object-cover rounded-lg shadow-lg" 
           />
         </div>
