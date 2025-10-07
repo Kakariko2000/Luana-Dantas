@@ -3,23 +3,23 @@ import React from 'react';
 const HomePage: React.FC = () => {
   return (
     <div className="relative -mt-8 -mx-4 sm:-mx-6 lg:-mx-8 h-[calc(100vh-5rem)] flex items-center justify-center text-white">
-      <div className="relative z-20 p-4 max-w-4xl w-full animate-fade-in"> {/* Alterado max-w-md para max-w-4xl */}
+      <div className="relative z-20 p-4 max-w-4xl w-full animate-fade-in">
         {/* Coluna de Imagens */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4"> {/* Alterado grid-cols-1 para grid-cols-1 md:grid-cols-3 */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <img 
             src="https://picsum.photos/id/1018/400/600" 
             alt="Imagem 1 do portfólio" 
-            className="w-full h-64 object-cover rounded-lg shadow-lg" 
+            className="w-full h-80 object-cover rounded-lg shadow-lg" 
           />
           <img 
             src="https://picsum.photos/id/1015/400/600" 
             alt="Imagem 2 do portfólio" 
-            className="w-full h-64 object-cover rounded-lg shadow-lg" 
+            className="w-full h-80 object-cover rounded-lg shadow-lg" 
           />
           <img 
             src="https://picsum.photos/id/1016/400/600" 
             alt="Imagem 3 do portfólio" 
-            className="w-full h-64 object-cover rounded-lg shadow-lg" 
+            className="w-full h-80 object-cover rounded-lg shadow-lg" 
           />
         </div>
 
