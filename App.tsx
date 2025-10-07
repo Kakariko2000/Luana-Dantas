@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Page } from './types';
 import Header from './components/Header';
@@ -27,7 +26,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col font-sans text-brand-primary">
+    <div className="min-h-screen flex flex-col font-comfortaa text-brand-primary"> {/* Alterado de font-sans para font-comfortaa */}
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {renderPage()}
