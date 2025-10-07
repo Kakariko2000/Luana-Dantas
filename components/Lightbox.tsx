@@ -42,7 +42,7 @@ const Lightbox: React.FC<LightboxProps> = ({ src, alt, onClose }) => {
       aria-label={alt}
     >
       <div
-        className="relative max-w-7xl max-h-[90vh] w-full"
+        className="relative max-w-3xl max-h-[90vh] w-full"
       >
         <img src={src} alt={alt} className="object-contain w-full h-full rounded-lg" />
         <button
