@@ -4,7 +4,7 @@ const AboutPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto py-12 animate-fade-in">
       <h2 className="text-4xl font-serif text-center mb-12 text-brand-primary">Sobre Mim</h2>
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+      <div className="flex flex-col md:flex-row items-center md:gap-12"> {/* Alterado md:items-start para items-center */}
         <div className="w-full md:w-1/3">
           <img 
             src="/luana-dantas-profile.jpeg" 
